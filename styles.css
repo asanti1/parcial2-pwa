@@ -1,0 +1,14 @@
+        .task-card {
+            margin-bottom: 15px;
+        }
+
+        .task-card .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .task-card.completada .card-body {
+            text-decoration: line-through;
+            color: #ccc;
+        }
